@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbolcu İsmi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b6623;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            padding: 15px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .player-container {
+            width: 60%;
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+        }
+
+        .player-name,
+        .info-title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .player-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .player-info img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+
+        .stats,
+        .player-details {
+            width: 50%;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .stats table,
+        .player-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .stats th,
+        .stats td,
+        .player-details th,
+        .player-details td {
+            padding: 10px;
+            border: 1px solid white;
+            text-align: left;
+        }
+
+        .stats th,
+        .player-details th {
+            background-color: #333;
+            font-size: 18px;
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <nav>
+                <a href="index.html">
+                    <div class="logo"><img src="/images/logo.png" alt="siteIcon">
+                        <h1>haftaningolu.com</h1>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <nav>
+            <a href="index.html">ANA SAYFA</a>
+            <a href="about.html">BİZ KİMİZ?</a>
+            <a href="contact.html">İLETİŞİM</a>
+        </nav>
+    </header>
+
+    <section class="player-container">
+        <div class="player-name">SIMON BANZA (17)</div>
+        <hr>
+        <div class="player-info">
+            <img src="/images/players/simonbanzapriv.jpg" alt="playerImage">
+            
+            <div class="stats">
+                <div class="info-title">PERFORMANS BİLGİLERİ</div>
+                <hr> <br>
+                <table>
+                    <tr>
+                        <th colspan="4">2024/25 Sezonu</th>
+                    </tr>
+                    <tr>
+                        <td>Maç Sayısı</td>
+                        <td>20</td>
+                        <td>Sarı kart</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Gol</td>
+                        <td>16</td>
+                        <td>Sarı-kırmızı kart</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Asist</td>
+                        <td>4</td>
+                        <td>Kırmızı kart</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <hr> <br>
+
+        <div style="display: flex ; ">
+            <div class="player-details" style="margin-right: 50px; ">
+                <div class="info-title">OYUNCU BİLGİLERİ</div>
+                <hr>
+                <table>
+                    <br>
+                    <tr>
+                        <td>İsim</td>
+                        <td>Simon Bokoté Banza</td>
+                    </tr>
+                    <tr>
+                        <td>Doğum tarihi/Yaş</td>
+                        <td>13 Ağu 1996 (28)</td>
+                    </tr>
+                    <tr>
+                        <td>Doğum yeri</td>
+                        <td>Kongo DC</td>
+                    </tr>
+                    <tr>
+                        <td>Uyruk</td>
+                        <td>Kongo DC - Fransa</td>
+                    </tr>
+                    <tr>
+                        <td>Mevki</td>
+                        <td>Forvet - Santrafor</td>
+                    </tr>
+                    <tr>
+                        <td>Güncel kulüp</td>
+                        <td>Trabzonspor</td>
+                    </tr>
+                    <tr>
+                        <td>Forma Numarası</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>Lig</td>
+                        <td>Türkiye Süper Lig</td>
+                    </tr>
+                    <tr>
+                        <td>Toplam Maç</td>
+                        <td>317</td>
+                    </tr>
+                    <tr>
+                        <td>Toplam Gol</td>
+                        <td>118</td>
+                    </tr>
+                    <tr>
+                        <td>Toplam Asist</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>Kırmızı Kart</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Sarı Kart</td>
+                        <td>41</td>
+                    </tr>
+                    <tr>
+                        <td>Milli Takım Maç</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="player-details" style="width: 100%;  align-items: center;">
+                    <div class="info-title">PERFORMANS DETAYLARI</div>
+                    <hr>
+                    <table>
+                        <tr>
+                            <th colspan="4">2024/25 Sezonu</th>
+                        </tr>
+                        <tr>
+                            <th>Müsabaka</th>
+                            <th>Oynadığı maç</th>
+                            <th>Gol</th>
+                            <th>Asist</th>
+                        </tr>
+                        <tr>
+                            <td>Süper Lig</td>
+                            <td>20</td>
+                            <td>16</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Türkiye Kupası</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Uefa Avrupa Ligi Elemeleri</td>
+                            <td>1</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Konferans Ligi Elemeleri</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="player-details" style="width: 100%;  align-items: center; margin-top: 50px;">
+                    <div class="info-title">BAŞARILARI</div>
+                    <hr>
+                    <ul>
+                        <li>1xPORTEKİZ LİG ŞAMPİYONLUĞU</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <div>
+            <footer>
+                <p>Bu bilgiler <a style="text-decoration: none; color: #0b6623;" href="https://www.transfermarkt.com.tr/"  target="_blank">transfermarkt.com.tr</a>  'den alınmıştır.</p>
+
+            </footer>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 haftaningolu.com | Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+
+</html>

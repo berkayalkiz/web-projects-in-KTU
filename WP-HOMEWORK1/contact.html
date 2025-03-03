@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b6623;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            padding: 15px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .player-container {
+            width: 60%;
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+        }
+
+        .player-name,
+        .info-title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .player-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .player-info img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+
+        .stats,
+        .player-details {
+            width: 50%;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .stats table,
+        .player-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .stats th,
+        .stats td,
+        .player-details th,
+        .player-details td {
+            padding: 10px;
+            border: 1px solid white;
+            text-align: left;
+        }
+
+        .stats th,
+        .player-details th {
+            background-color: #333;
+            font-size: 18px;
+        }
+
+        .form-container {
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .form-container input,
+        .form-container button,
+        .form-container select .form-container textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            background-color: white;
+            color: black;
+        }
+
+        .form-container button {
+            background-color: #0b6623;
+            color: white;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <nav>
+                <a href="index.html">
+                    <div class="logo"><img src="/images/logo.png" alt="siteIcon">
+                        <h1>haftaningolu.com</h1>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <nav>
+            <a href="index.html">ANA SAYFA</a>
+            <a href="about.html">BİZ KİMİZ?</a>
+            <a href="contact.html">İLETİŞİM</a>
+        </nav>
+    </header>
+
+    <section class="player-container">
+        <div class="player-name">BİZİMLE İLETİŞİME GEÇ</div>
+        <hr>
+        <section class="form-container">
+            <form>
+                <input type="text" placeholder="Adınızı girin">
+                <input type="email" placeholder="E-posta adresinizi girin">
+                <textarea name="textarea" id="textarea" cols="43" rows="15" placeholder="Mesajınızı girin"></textarea>
+                <button type="submit">Mesajı gönder</button>
+            </form>
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 haftaningolu.com | Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+
+</html>

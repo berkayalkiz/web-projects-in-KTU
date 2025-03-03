@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haftanın Golü</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b6623;
+            color: white;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            padding: 15px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        nav {
+            display: flex;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px;
+        }
+        .player-card {
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 30%;
+        }
+        .player-card img{
+            width: 50%;
+            height: auto;
+        }
+        .player-card a{
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+            
+        }
+        .form-container {
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: 30px auto;
+            text-align: center;
+        }
+        .form-container input, .form-container button, .form-container select {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container input {
+            background-color: white;
+            color: black;
+        }
+        .form-container button {
+            background-color: #0b6623;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <nav>
+                <a href="index.html">
+                    <div class="logo"><img src="/images/logo.png" alt="Site İkonu">
+                    <h1>haftaningolu.com</h1></div>
+                </a>
+            </nav>
+        </div>
+        <nav>
+            <a href="index.html">ANA SAYFA</a>
+            <a href="about.html">BİZ KİMİZ?</a>
+            <a href="contact.html">İLETİŞİM</a>
+        </nav>
+    </header>
+
+    <div class="player-card" style="align-items: center; width: 100%; margin-top: 50px;">
+
+        <h1> Sizce bu haftanın gol hangisiydi ? </h1>
+
+    </div>
+
+    <div class="container">
+        
+        <div class="player-card">
+            <h2>EDIN VISCA</h2>
+            <hr>
+            <img src="/images/players/edinvisca.jpg" alt="errorimageopen">
+            <br><br>
+            <a href="edinvisca.html">Kimdir?</a>
+            <hr>
+            <br><br>
+            <iframe width="685" height="1217" src="https://www.youtube.com/embed/6ld086a3MZA" title="Edin Vişça’nın golüyle Çaykur Rizespor karşısında farkı 2’ye çıkarıyoruz 🙌#TSvÇRS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="player-card">
+            <h2>MUHAMMED CHAM</h2>
+            <hr>
+            <img src="/images/players/muhammedcham.jpg" alt="errorimageopen">
+            <br><br>
+            <a href="muhammedcham.html">Kimdir?</a>
+            <hr>
+            <br><br>
+            <iframe width="685" height="1217" src="https://www.youtube.com/embed/v7SdMtip58E" title="Muhammed Cham&#39;ın harika frikik golü." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="player-card">
+            <h2>SIMON BANZA</h2>
+            <hr>
+            <img src="/images/players/simonbanza.jpg" alt="errorimageopen">
+            <br><br>
+            <a href="simonbanza.html">Kimdir?</a>
+            <hr>
+            <br><br>
+            <iframe width="685" height="1217" src="https://www.youtube.com/embed/yVG5hKIus00" title="Simon Banza’nın golüyle Çaykur Rizespor karşısında skoru 5-1’e getiriyoruz! #TSvÇRS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <br>
+
+    <hr>
+    <div class="container">
+        <nav><a style="text-decoration: underline;" href="howcanvote.html">Nasıl oy kullanırım?</a></nav>
+    </div>
+
+    <hr>
+    <div class="form-container">
+        <h2>Oyunuzu Kullanın</h2>
+        <hr>
+        <form>
+            <input type="text" placeholder="Adınızı girin">
+            <input type="email" placeholder="E-posta adresinizi girin">
+            <select name="golsecimi" id="goalOptions">
+                <option value="edinvisca">Edin Visca</option>
+                <option value="muhammedcham">Muhammed Cham</option>
+                <option value="simonbanza">Simon Banza</option>
+            </select>
+            <button type="submit">Oy Ver</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 haftaningolu.com | Tüm Hakları Saklıdır.</p>
+    </footer>
+    
+</body>
+</html>
