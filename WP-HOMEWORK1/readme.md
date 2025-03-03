@@ -30,7 +30,7 @@ Bu projede, web sayfasının yapısını ve içeriklerini düzenlemek için aşa
 ## **Proje Özellikleri**
 
 1. **Ana Sayfa (index.html)**:
-   - Haftanın golünü atan futbolculara ait bilgiler yer alır.
+   - Haftanın golününe aday olan futbolculara ait bilgiler ve attıkları gollerin videosu yer alır.
    - Kullanıcılar, her futbolcunun detaylarına "Kimdir?" bağlantısıyla ulaşabilirler.
    - Site tasarımında çim yeşili ve siyah renkler ağırlıklı olarak kullanılmıştır.
 
@@ -43,10 +43,17 @@ Bu projede, web sayfasının yapısını ve içeriklerini düzenlemek için aşa
    - Kullanıcılar, iletişim formu aracılığıyla site sahipleriyle iletişime geçebilir.
    - Form, ad soyad, e-posta ve mesaj gibi alanlardan oluşur.
 
+4. **Hakkımızda Sayfası (about.html)**
+   - Sitenin ne iş yaptığı, ne amaçla korulduğuna dair bilgiler yer almaktadır.
+
+5. **Oy Kullanma Klavuz Sayfası (howcanvote)**
+   - Oyun nereden, nasıl kullanılabileceğine dair bilgiler içeren, adım adım ne yapılacağına yer verilmiştir.
+
 ## **Kullanıcı Deneyimi**
 
 - Web sitesi basit ve kullanıcı dostu bir arayüze sahiptir.
 - Sayfalar arasında geçiş yapmak kolaydır.
-- Formlar, kullanıcıların rahatça veri girmesini sağlar ve her alanın gerekli olduğu belirtilmiştir.
+- Formlar, kullanıcıların rahatça veri girmesini sağlar.
+- Hangi ögenin ne işe yaradığı ve nasıl kullanılacağı açıkla belirtilmiştir.
 
-**SON OLARAK:** Bu proje benim için html kullanımı olarak bir pratik oldu. Ancak göze sadece html ile oluşturulan siteler göze hoş gelmemektedir. Bu yüzden temel seviyede css kullanmak zorunda kaldım. Böylece ilk websitesi oluşturma deneyimimi tamamladım. Öğrenme ve oluşturma yaklaşık olarak 7 saat civarında sürmüştür. Bu noktada html docs ve chatgptden faydalanılmıştır.
+**SON OLARAK:** Bu proje benim için html kullanımı olarak bir pratik oldu. Ancak sadece html ile oluşturulan siteler göze hoş gelmemektedir. Bu yüzden temel seviyede css kullanmak zorunda kaldım. Böylece ilk websitesi oluşturma deneyimimi tamamladım. Öğrenme ve oluşturma yaklaşık olarak 7 saat civarında sürmüştür. Bu noktada html docs ve chatgptden faydalanılmıştır.
